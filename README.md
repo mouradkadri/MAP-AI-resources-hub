@@ -1,100 +1,107 @@
 # AI Resource Intelligence Hub (v6.0)
 
-![Console Preview](assets/console.png)
+**An advanced automated pipeline for extracting, categorizing, and analyzing AI tools and resources from unstructured documents.**
 
-AI Resource Intelligence Hub is a desktop app (CustomTkinter + Python) that extracts, categorizes and stores AI resources found in documents using a generative model (Gemini). It can export results to CSV or upload them to a Supabase database.
+![Dashboard Analytics](dashboard.png)
 
----
+## 📋 Overview
 
-## 🚀 Quick Start
+The **AI Resource Intelligence Hub** is a desktop application built with Python and CustomTkinter. It solves the problem of manually curating AI resources by using **Google Gemini** to read documents (PDF, DOCX, TXT), extract structured metadata, and automatically tag entries based on a strict taxonomy.
 
-1. Create a virtual environment and install dependencies (example):
-
-```bash
-python -m venv .venv
-.venv\Scripts\activate
-pip install -r requirements.txt
-```
-
-2. Configure API keys in `config.ini` (or use the Settings dialog in the app):
-
-- `GEMINI_API_KEY` (Gemini / Google generative)
-- `SUPABASE_KEY` and `SUPABASE_URL` (if using DB upload)
-
-3. Run the GUI:
-
-```bash
-python main.py
-```
-
-4. To run workers headlessly for quick checks:
-
-```bash
-# CSV mode (append to CSV)
-python -c "from app.workers.script_csv import main; main()"
-
-# DB mode (upload to Supabase)
-python -c "from app.workers.script_db import main; main()"
-```
+It supports dual output modes: **Local CSV** storage for easy Excel analysis and **Supabase** for cloud database integration.
 
 ---
 
-## ✅ Features
+## 📸 Interface Preview
 
-- Stream `.pdf`, `.docx`, `.txt` files and extract resource metadata (title, provider, description, link, tags)
-- Tagging engine driven by `tagging_reference.csv` (robust parser handles messy formats)
-- Save to CSV (`data/ai_resources_tagged.csv`) or upload to Supabase
-- Live operation logs, progress bar, and analytics (donut chart, bar chart, timeline)
-- Thread-safe logging and file-based debug log (`data/logger_debug.log`) for troubleshooting
+### Data Management
+View, edit, and export extracted resources. The system automatically categorizes tools based on the `tagging_reference.csv` logic.
+![Data Viewer](CsvViewer.png)
 
----
-
-## 📁 Key files & folders
-
-- `Resources/` — put your `.pdf`, `.docx`, `.txt` inputs here
-- `data/ai_resources_tagged.csv` — main CSV output
-- `processed_history.log` — which files have been processed (used to avoid duplicate work)
-- `tagging_reference.csv` — tagging dictionary used by the AI prompt
-- `data/logger_debug.log` — persistent logger debug output when needed
+### Live Operations Console
+Real-time logging of the extraction process, file streaming, and AI processing status.
+![Console Logs](LogsPage.png)
 
 ---
 
-## 🛠️ Developer Notes
+## ✨ Key Features
 
-- Main entry: `main.py` (starts the CustomTkinter GUI)
-- Workers:
-  - `app/workers/script_csv.py` (CSV export mode)
-  - `app/workers/script_db.py` (Supabase upload mode)
-- Core modules:
-  - `app/core/ai_service.py` — wraps Gemini calls and returns strict JSON
-  - `app/core/content_streamer.py` — file chunking/streaming (memory-efficient)
-  - `app/core/data_handler.py` — CSV handling, tagging guide parsing, history tracking
+*   **Intelligent Extraction:** Uses Gemini 2.5 Flash to parse unstructured text and identify tools, descriptions, and providers.
+*   **Strict Taxonomy Enforcement:** Uses a `tagging_reference.csv` to map hashtags (e.g., `#ChatGPT`) to specific Categories and Subcategories automatically.
+*   **Smart Deduplication:** Checks both the local CSV and the Supabase database to prevent duplicate entries based on URLs.
+*   **Resume Capability:** Tracks processed files in `processed_history.log` so you can restart the app without rescanning old files.
+*   **Visual Analytics:** Interactive dashboards showing Category Distribution, Top Providers, and Resource Growth over time.
 
 ---
 
-## 📸 Screenshots
+## 🛠️ Installation
 
-> Add the screenshots to the `assets/` directory using the following file names and they will appear here:
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/yourusername/MAP-AI-resources-hub.git
+    cd MAP-AI-resources-hub
+    ```
 
-- `assets/console.png` — Console / live logs preview
-- `assets/analytics.png` — Analytics dashboard (donut + bar + timeline)
-- `assets/data.png` — Data table view (Treeview)
+2.  **Install Dependencies**
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-Example markdown (already included at top of this file):
+3.  **Configuration Setup**
+    The `config.ini` file is excluded from source control for security. You must create it in the root directory:
 
-```md
-![Console Preview](assets/console.png)
-```
+    **Create a file named `config.ini` and paste this:**
+    ```ini
+    [API]
+    GEMINI_API_KEY=your_google_gemini_key_here
+    SUPABASE_KEY=your_supabase_service_role_key_here
+
+    [SETTINGS]
+    SUPABASE_URL=your_supabase_url_here
+    ```
 
 ---
 
-## ⚙️ Troubleshooting
+## 🚀 How to Use
 
-- If the app reports "No new resources" but files changed, try removing the filename from `processed_history.log` to force a re-scan. A future update adds mtime-aware history.
-- If the AI responses aren't parsed, check `data/logger_debug.log` for raw model outputs and parsing failures.
-- If CSV append fails due to file locks, close Excel or other programs using the file and re-run.
+1.  **Prepare Inputs:**
+    Place your source documents (PDFs, Word Docs, Text files) into the `resources/` folder.
+
+2.  **Launch the App:**
+    ```bash
+    python main.py
+    ```
+
+3.  **Run Extraction:**
+    *   Click **"Upload to DB"** to process files and send them to Supabase.
+    *   Click **"Export Excel"** (CSV Mode) to process files and save them locally to `data/ai_resources_tagged.csv`.
+
+4.  **Review Data:**
+    Go to the **Data** tab to review extracted items. Double-click any cell to edit it manually.
 
 ---
+
+## 📂 Project Structure
+
+```text
+├── main.py                  # Application Entry Point
+├── config.ini               # API Keys (Create this manually)
+├── tagging_reference.csv    # The "Brain" - Maps Tags to Categories
+├── processed_history.log    # Tracks processed files to avoid duplicates
+│
+├── app/                     # Source Code
+│   ├── core/                # Logic (AI, DataHandler, Streaming)
+│   ├── ui/                  # CustomTkinter Interface
+│   └── workers/             # Threaded Background Scripts
+│
+├── data/
+│   └── ai_resources_tagged.csv  # Local Output Database
+│
+├── resources/               # Input Folder (Drop your docs here)
+│   ├── test.docx
+│   └── ...
+│
+└── assets/                  # Icons and Readme Images
 
 ## Contributing
 
