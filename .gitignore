@@ -1,0 +1,16 @@
+# --- Security: NEVER commit API keys ---
+config.ini
+
+# --- Python Cache & Logs ---
+__pycache__/
+*.pyc
+*.log
+processed_history.log
+
+# --- Virtual Environments (Optional) ---
+venv/
+.env
+
+# --- Optional: Ignore the CSV data if it contains private info ---
+# data/
+# ai_resources_tagged.csv

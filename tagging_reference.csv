@@ -1,0 +1,1000 @@
+﻿Hashtag;Primary Group;Subcategory;Definition / Purpose;Example Use Case;Merged or Cross-Ref Note;Tag Type Key (F/I/T/P/S/C/E)
+#ChatGPT;AI Models, Tools &Platforms;LLMs &Frameworks;OpenAI’s flagship LLM for text generation and automation.;Compare ChatGPT vs Claude for summarization.;;T
+#Claude;AI Models, Tools &Platforms;LLMs &Frameworks;Anthropic’s conversational model emphasizing safe dialogue.;Drafting policy memos using Claude.;;T
+#Gemini;AI Models, Tools &Platforms;LLMs &Frameworks;Google’s multimodal family of models.;Image+text Q&A experiments for marketing.;;T
+#Anthropic;AI Models, Tools &Platforms;LLMs &Frameworks;Company behind Claude models.;Model selection for safety‑critical workflows.;;T
+#LLMs;AI Models, Tools &Platforms;LLMs &Frameworks;General tag for large language models.;Discussing model families and capabilities.;;S
+#CustomGPTs;AI Models, Tools &Platforms;LLMs &Frameworks;User-defined GPT variants tailored to tasks.;Create a firm-specific drafting assistant.;;T
+#GEMs;AI Models, Tools &Platforms;LLMs &Frameworks;Google’s small task‑tuned modules (Gems).;Configure a research assistant Gem.;;T
+#DigitalTwin;AI Models, Tools &Platforms;LLMs &Frameworks;Virtual representation of a person/process/system.;Build an executive assistant twin.;;S
+#Watermarks;AI Models, Tools &Platforms;LLMs &Frameworks;Techniques to mark AI-generated content.;Compliance for generated marketing assets.;;E
+#ContextEngineering;AI Models, Tools &Platforms;LLMs &Frameworks;Designing inputs, retrieval, and memory for LLMs.;RAG prompt packing for long docs.;;P
+#PromptEngineering;AI Models, Tools &Platforms;LLMs &Frameworks;Designing prompts to guide model behavior.;Few-shot templates for support replies.;;P
+#PromptVersioning;AI Models, Tools &Platforms;LLMs &Frameworks;Tracking and iterating prompt changes.;A/B test prompt variants.;;P
+#PromptEngineeringSubReddit;AI Models, Tools &Platforms;LLMs &Frameworks;Community for prompt engineering discussions.;Sourcing patterns from subreddit.;;C
+#AIConnectors;AI Models, Tools &Platforms;LLMs &Frameworks;Plugins and connectors linking AI to tools/data.;Connect CRM data to an agent.;;T
+#ChatGPTConnectors;AI Models, Tools &Platforms;LLMs &Frameworks;ChatGPT-native connectors to external apps.;Pipe Airtable into GPT.;;T
+#Perplexity;AI Models, Tools &Platforms;LLMs &Frameworks;AI search engine for research and Q&A.;Source citations for a white paper.;;T
+#Genspark;AI Models, Tools &Platforms;LLMs &Frameworks;AI research and summarization tool.;Draft topic briefs from URLs.;;T
+#Figma;AI Models, Tools &Platforms;Design &Media Creation;Collaborative design tool.;Wireframe app UI for a client.;;T
+#Gamma;AI Models, Tools &Platforms;Design &Media Creation;AI presentation and docs tool.;Auto-generate slide decks.;;T
+#Capcut;AI Models, Tools &Platforms;Design &Media Creation;Video editing platform.;Edit social clips for MAP updates.;;T
+#Leonardo;AI Models, Tools &Platforms;Design &Media Creation;Image generation platform.;Create brand mockups.;;T
+#ImageGeneration;AI Models, Tools &Platforms;Design &Media Creation;Creating images with AI.;Generate hero images for a landing page.;;P
+#ImageEditing;AI Models, Tools &Platforms;Design &Media Creation;Editing images using AI tools.;Background removal for product shots.;;P
+#ImageGenerator;AI Models, Tools &Platforms;Design &Media Creation;Tag for any image gen tool.;Explore alternatives to Midjourney.;;T
+#AIPoweredDesign;AI Models, Tools &Platforms;Design &Media Creation;Design workflows enhanced by AI.;AI-assisted layout suggestions.;;P+S
+#InfoGraphics;AI Models, Tools &Platforms;Design &Media Creation;Visual storytelling and data graphics.;Produce KPI infographics for a case study.;;P
+#Zapier;AI Models, Tools &Platforms;Automation &Integration Tools;Workflow automation connecting cloud apps.;Auto-send form leads to a CRM.;;T+P
+#n8n;AI Models, Tools &Platforms;Automation &Integration Tools;Open-source automation platform.;Self-hosted data pipeline.;;T+P
+#GumLoop;AI Models, Tools &Platforms;Automation &Integration Tools;Automation and AI agent orchestration.;Automate weekly reports.;;T+P
+#Atlas;AI Models, Tools &Platforms;Automation &Integration Tools;Automation/AI orchestration (startup).;Prototype agent routing.;;T
+#Revio;AI Models, Tools &Platforms;Automation &Integration Tools;Customer ops automation (startup).;Automate post-sale onboarding.;;T
+#Guidde;AI Models, Tools &Platforms;Automation &Integration Tools;AI how-to video/documentation creation.;Create SOP videos for clients.;;T
+#Rube;AI Models, Tools &Platforms;Automation &Integration Tools;Automation toolkit/community concept.;Chain simple tools into flows.;;T
+#AgentNetworks;AI Models, Tools &Platforms;Automation &Integration Tools;Coordination frameworks for multiple agents.;Swarm design for complex tasks.;;S
+#AgentLicensing;AI Models, Tools &Platforms;Automation &Integration Tools;Standards/accreditation for software agents.;Define QA for deployable agents.;;S
+#Lovable;AI Models, Tools &Platforms;Startup &Emergent Tech;AI-assisted app builder.;Ship MVP in a weekend.;;T
+#Blotato;AI Models, Tools &Platforms;Startup &Emergent Tech;Early-stage AI tool (startup).;Experiment with content gen.;;T
+#Base44;AI Models, Tools &Platforms;Startup &Emergent Tech;Early-stage AI tool (startup).;Data prep experiments.;;T
+#EmergentSh;AI Models, Tools &Platforms;Startup &Emergent Tech;Emerging tool/platform.;Track new builder tools.;;T
+#AnythingApp;AI Models, Tools &Platforms;Startup &Emergent Tech;General-purpose AI app builder concept.;Prototype a concierge bot.;;T
+#V0App;AI Models, Tools &Platforms;Startup &Emergent Tech;V0.dev app builder shorthand.;Codegen scaffolding.;;T
+#BoltNew;AI Models, Tools &Platforms;Startup &Emergent Tech;Rapid-build boilerplate concept.;Spin up demo apps quickly.;;T
+#AIPlatforms;AI Models, Tools &Platforms;Startup &Emergent Tech;Umbrella for AI tool ecosystems.;Compare platform capabilities.;;S
+#StartupTools;AI Models, Tools &Platforms;Startup &Emergent Tech;Umbrella for niche/emerging tools.;Tag experimental utilities.;;S
+#AIBrowsers;AI Models, Tools &Platforms;AI Browsers &On-Device;Browsers with native AI features.;Research with side-by-side AI panel.;;T
+#ChromeAIBrowser;AI Models, Tools &Platforms;AI Browsers &On-Device;Chrome’s AI-enhanced interface.;Use AI writing help in Chrome.;;T
+#GoogleChrome;AI Models, Tools &Platforms;AI Browsers &On-Device;General Chrome tag.;Extensions and devtools best practices.;;T
+#OnDeviceAI;AI Models, Tools &Platforms;AI Browsers &On-Device;Running models on local hardware.;Privacy-first client solutions.;;T+S
+#VibeCoding;Processes, Workflows &Development;Development Methodologies;Lightweight, pragmatic no-code/low-code building.;Ship internal tools rapidly.;;P+S
+#NoCode;Processes, Workflows &Development;Development Methodologies;Building tools without programming.;Form-to-CRM prototypes.;;P
+#NoCodeDevelopment;Processes, Workflows &Development;Development Methodologies;Practice of no-code delivery.;Internal dashboards for SMEs.;;P
+#Prototyping;Processes, Workflows &Development;Development Methodologies;Creating testable versions before full build.;Clickable mockups for user testing.;;P
+#AgileSoftwareDevelopment;Processes, Workflows &Development;Development Methodologies;Iterative development framework.;Two-week sprints for agent features.;;P
+#StructuredDevelopment;Processes, Workflows &Development;Development Methodologies;Defined, documented build approach.;Standardize prompts as code assets.;;P
+#DevelopmentMethodology;Processes, Workflows &Development;Development Methodologies;Meta-tag for software processes.;Select dev approach per client risk.;;P
+#AIProgramming;Processes, Workflows &Development;Development Methodologies;Coding patterns for AI apps.;Toolformer-style function calling.;;P
+#CodingPhilosophy;Processes, Workflows &Development;Development Methodologies;Opinions/patterns guiding code decisions.;Favor readability over cleverness.;;S
+#CodingTips;Processes, Workflows &Development;Development Methodologies;Practical advice for coders.;Linting, tests, and type hints.;;S
+#DeveloperAdvice;Processes, Workflows &Development;Development Methodologies;Guidance for developers’ careers.;Portfolio-building suggestions.;;S
+#HumanInTheLoop;Processes, Workflows &Development;Development Methodologies;Human review and feedback checkpoints.;Daily QC of agent outputs.;;P
+#ForwardDeployedEngineering;Processes, Workflows &Development;Development Methodologies;Embedded engineering for field ops.;Shadow client teams for discovery.;;P
+#AgentBuilder;Processes, Workflows &Development;Development Methodologies;Building autonomous or co-pilot agents.;Route tasks to specialized agents.;;P
+#AIAgents;Processes, Workflows &Development;Development Methodologies;General tag for agent systems.;Compare single vs multi-agent.;;S
+#AIAppBuilder;Processes, Workflows &Development;Development Methodologies;Tools/process to assemble AI apps.;Assemble CRUD + RAG quickly.;;P
+#AIApplications;Processes, Workflows &Development;Development Methodologies;End-to-end building of AI solutions.;Deploy a support assistant.;Cross-listed with #Strategy;T+P+S
+#Projects;Processes, Workflows &Development;Development Methodologies;General tag for in-flight work.;Reference live engagements.;;S
+#LLMProjects;Processes, Workflows &Development;Development Methodologies;Projects specifically using LLMs.;Catalog deliverables for case studies.;;S
+#OfficeTools;Processes, Workflows &Development;Development Methodologies;Docs, spreadsheets, presentations.;Template-driven delivery.;;T
+#Workflows;Processes, Workflows &Development;Development Methodologies;Sequenced tasks to reach outcomes.;Define intake → delivery → QA.;;P
+#ProcessMapping;Processes, Workflows &Development;Development Methodologies;Visualize and optimize processes.;Swimlane diagrams for handoffs.;;P
+#ProductDesign;Processes, Workflows &Development;Product &Design Workflows;Designing solutions with user needs in mind.;Jobs-to-be-done mapping.;;P
+#UserExperience;Processes, Workflows &Development;Product &Design Workflows;UX research and design elements.;Usability tests on MVP.;;P
+#FigmaMake;Processes, Workflows &Development;Product &Design Workflows;Figma generation/automation workflows.;AI-assisted UI layout.;;T+P
+#StructuredPrototyping;Processes, Workflows &Development;Product &Design Workflows;Disciplined approach to prototypes.;Gate reviews before dev.;;P
+#HumanCenteredDesign;Processes, Workflows &Development;Product &Design Workflows;Empathic design methods.;Service blueprinting.;;P
+#AutomationWorkflows;Processes, Workflows &Development;Automation &Integration Processes;Process automation patterns.;Auto triage inbound emails.;;P
+#ProcessAutomation;Processes, Workflows &Development;Automation &Integration Processes;Automate repetitive tasks.;Invoice reconciliation bots.;;P
+#AgentCoordination;Processes, Workflows &Development;Automation &Integration Processes;Synchronize multi-agent systems.;Hand off tasks with guardrails.;;P
+#QualityAssurance;Processes, Workflows &Development;Automation &Integration Processes;Testing and verification methods.;Daily exception checks.;;P
+#OperationalEfficiency;Processes, Workflows &Development;Automation &Integration Processes;Reduce waste and cycle time.;Lean improvements.;;S
+#ContinuousImprovement;Processes, Workflows &Development;Automation &Integration Processes;Kaizen-style iteration.;Retros and quick wins.;;S
+#Strategy;Business Strategy, Operations &Functions;Core Business Functions / Strategy;Planning, positioning, and advantage.;Prioritize AI initiatives.;;F+S
+#BusinessStrategy;Business Strategy, Operations &Functions;Core Business Functions / Strategy;Tactical/strategic decisions for growth.;Select target segments.;;S
+#OperatingModel;Business Strategy, Operations &Functions;Core Business Functions / Strategy;How the org delivers value.;Define roles, processes, KPIs.;;S
+#BusinessModel;Business Strategy, Operations &Functions;Core Business Functions / Strategy;Value creation and capture logic.;Freemium vs retainer pricing.;;S
+#EnterpriseAI;Business Strategy, Operations &Functions;Core Business Functions / Strategy;Org‑wide AI adoption patterns.;COE setup for AI governance.;;S
+#AILeadership;Business Strategy, Operations &Functions;Core Business Functions / Strategy;Leading AI-enabled change.;Exec playbooks for AI era.;;S
+#ChangeManagement;Business Strategy, Operations &Functions;Core Business Functions / Strategy;Managing org transitions.;Train-the-trainer rollouts.;;S
+#FivePrinciples;Business Strategy, Operations &Functions;Core Business Functions / Strategy;MAP’s guiding principles.;Embed in delivery standards.;;S
+#McKinsey;Business Strategy, Operations &Functions;Core Business Functions / Strategy;Reference to consulting frameworks.;Adopt 7S/MECE patterns.;;C
+#Consulting;Business Strategy, Operations &Functions;Core Business Functions / Strategy;Professional advisory services.;Discovery workshops.;;S
+#AIConsulting;Business Strategy, Operations &Functions;Core Business Functions / Strategy;Advisory work for AI adoption.;SMB AI readiness.;;S
+#AIBusiness;Business Strategy, Operations &Functions;Core Business Functions / Strategy;Business models enabled by AI.;New revenue via automation.;;S
+#Entrepreneurship;Business Strategy, Operations &Functions;Core Business Functions / Strategy;Starting and scaling ventures.;Pilot MVP with clients.;;S
+#BusinessDevelopmentFunction;Business Strategy, Operations &Functions;Core Business Functions / Strategy;New business creation activity.;Outreach &proposals.;;F
+#WorkChart;Business Strategy, Operations &Functions;Core Business Functions / Strategy;Visual org charts/work graphs.;Define responsibilities.;;P
+#ChiefAIOfficer;Business Strategy, Operations &Functions;Core Business Functions / Strategy;Role focused on AI adoption.;Define CAIO remit.;;S
+#Marketing;Business Strategy, Operations &Functions;Core Business Functions / Marketing;Promotion and audience growth.;Launch AI newsletter.;;F
+#MarketingFunction;Business Strategy, Operations &Functions;Core Business Functions / Marketing;Marketing operations/processes.;Campaign ops in HubSpot.;;F
+#MarketingStrategy;Business Strategy, Operations &Functions;Core Business Functions / Marketing;Positioning and go-to-market.;ICP and messaging.;;F
+#AIMarketing;Business Strategy, Operations &Functions;Core Business Functions / Marketing;AI-enhanced marketing practices.;Auto SEO briefs.;;S
+#SEO;Business Strategy, Operations &Functions;Core Business Functions / Marketing;Search engine optimization.;Content clustering.;;P
+#AEO;Business Strategy, Operations &Functions;Core Business Functions / Marketing;Answer Engine Optimization.;Optimize for AI search.;;P
+#AEM;Business Strategy, Operations &Functions;Core Business Functions / Marketing;AI Experience Management.;On-site AI assistants.;;P
+#Personalization;Business Strategy, Operations &Functions;Core Business Functions / Marketing;Tailor content to users.;Dynamic website content.;;P
+#SocialMediaMarketing;Business Strategy, Operations &Functions;Core Business Functions / Marketing;Engagement on social platforms.;LinkedIn carousels.;;P
+#BrandBuilding;Business Strategy, Operations &Functions;Core Business Functions / Marketing;Grow brand equity.;Narrative and visuals.;;S
+#InfluencerMarketing;Business Strategy, Operations &Functions;Core Business Functions / Marketing;Leverage creator networks.;Partner with micro‑influencers.;;S
+#StartupGrowth;Business Strategy, Operations &Functions;Core Business Functions / Marketing;Early-stage marketing levers.;Referral loops.;;S
+#CompetitiveAnalysis;Business Strategy, Operations &Functions;Core Business Functions / Marketing;Analyze market rivals.;Benchmark features &prices.;;P
+#LinkedIn;Business Strategy, Operations &Functions;Core Business Functions / Marketing;LinkedIn‑specific content.;Engagement testing.;;C
+#SalesStrategy;Business Strategy, Operations &Functions;Core Business Functions / Sales;Approach to selling and pipelines.;Define stages &SLAs.;;F
+#CRM;Business Strategy, Operations &Functions;Core Business Functions / Sales;Customer relationship management systems.;HubSpot deal tracking.;;T
+#ClientAcquisition;Business Strategy, Operations &Functions;Core Business Functions / Sales;Tactics to win new clients.;Free assessment offer.;;F
+#SolutionDeployment;Business Strategy, Operations &Functions;Core Business Functions / Sales;Shipping client solutions.;Handover playbooks.;;P
+#PricingModels;Business Strategy, Operations &Functions;Core Business Functions / Sales;How services are priced.;Outcome-based fees.;;S
+#CustomerJourney;Business Strategy, Operations &Functions;Core Business Functions / Sales;Awareness→Purchase→Retention flow.;Map friction points.;;P
+#SalesEnablement;Business Strategy, Operations &Functions;Core Business Functions / Sales;Equip sales with tools/content.;Playbooks &case studies.;;P
+#FinanceFunction;Business Strategy, Operations &Functions;Core Business Functions / Finance;Accounting, FP&A, and controls.;Close process improvements.;;F
+#Pricing;Business Strategy, Operations &Functions;Core Business Functions / Finance;Setting prices for value capture.;Tiered packages.;;S
+#Profitability;Business Strategy, Operations &Functions;Core Business Functions / Finance;Margin analysis and drivers.;Improve gross margin to 65%.;;S
+#Fundraising;Business Strategy, Operations &Functions;Core Business Functions / Finance;Capital raising activity.;Grant programs for workforce.;;S
+#Budgeting;Business Strategy, Operations &Functions;Core Business Functions / Finance;Plan revenue/expenses.;Quarterly reforecast.;;P
+#FinancialModeling;Business Strategy, Operations &Functions;Core Business Functions / Finance;Forecasts and sensitivity.;Scenario analysis.;;P
+#ROI;Business Strategy, Operations &Functions;Core Business Functions / Finance;Return on investment metrics.;Payback on automation.;;S
+#CostReduction;Business Strategy, Operations &Functions;Core Business Functions / Finance;Cut wasteful spend.;Process automation savings.;;S
+#OperationsFunction;Business Strategy, Operations &Functions;Core Business Functions / Operations;Day-to-day delivery engine.;Define SOPs and SLAs.;;F
+#ProcurementFunction;Business Strategy, Operations &Functions;Core Business Functions / Operations;Sourcing and vendor mgmt.;Negotiate SaaS terms.;;F
+#OperationalExcellence;Business Strategy, Operations &Functions;Core Business Functions / Operations;High-performance operations.;Six Sigma light.;;S
+#ContinuousImprovement;Business Strategy, Operations &Functions;Core Business Functions / Operations;Iterative operations betterment.;Kaizen board.;;S
+#BusinessAdaptation;Business Strategy, Operations &Functions;Core Business Functions / Operations;Adapting to change signals.;Pivot to new channels.;;S
+#TechDevFunction;Business Strategy, Operations &Functions;Core Business Functions / TechDev;Engineering organization work.;SRE and platform ops.;;F
+#AIAgents;Business Strategy, Operations &Functions;Core Business Functions / TechDev;Agent-centric architectures.;Create triage agent.;;S
+#AgentBuilder;Business Strategy, Operations &Functions;Core Business Functions / TechDev;Agent construction and tools.;Design planner/worker pattern.;;P
+#Prototyping;Business Strategy, Operations &Functions;Core Business Functions / TechDev;Build small tests first.;Spike experiments.;;P
+#HumanResourcesFunction;Business Strategy, Operations &Functions;Core Business Functions / HR;People ops and culture.;Comp bands &reviews.;;F
+#HiringPractices;Business Strategy, Operations &Functions;Core Business Functions / HR;Fair, efficient hiring.;Rater calibration.;;P
+#EmployeeTrust;Business Strategy, Operations &Functions;Core Business Functions / HR;Build trust and transparency.;Clear AI use policies.;;S
+#MixedAgeTeams;Business Strategy, Operations &Functions;Core Business Functions / HR;Age-diverse teams.;Pair GenZ with seniors.;;S
+#MixedExperienceTeams;Business Strategy, Operations &Functions;Core Business Functions / HR;Blend juniors/seniors.;Mentor/mentee pods.;;S
+#AIWorkforce;Business Strategy, Operations &Functions;Core Business Functions / HR;AI’s impact on jobs/skills.;Upskilling plan.;Merged from #AIJobs, #AIJobMarket;F+S
+#CareerResilience;Business Strategy, Operations &Functions;Core Business Functions / HR;Staying valuable amid change.;Cross-train programs.;;S
+#WorkforceImpact;Business Strategy, Operations &Functions;Core Business Functions / HR;Macro impact of AI.;Policy briefing.;;S
+#CorporateAI;Business Strategy, Operations &Functions;Core Business Functions / HR;Enterprise adoption topics.;Internal guardrails.;;S
+#EntryLevelHiring;Business Strategy, Operations &Functions;Core Business Functions / HR;Early career paths.;Intern to FT pipeline.;;P
+#Internships;Business Strategy, Operations &Functions;Core Business Functions / HR;Formal intern programs.;MAP/OAP cohorts.;;P
+#Diversity;Business Strategy, Operations &Functions;Core Business Functions / HR;Inclusive hiring/culture.;DEI goals.;;S
+#FutureOfWork;Business Strategy, Operations &Functions;Core Business Functions / HR;Trends in work models.;Hybrid norms.;;S
+#EmployeeExpectations;Business Strategy, Operations &Functions;Core Business Functions / HR;What workers value.;Flexibility &WFH.;;S
+#GenerationalDifferences;Business Strategy, Operations &Functions;Core Business Functions / HR;Gen-based preferences.;Communication styles.;;S
+#GenZ;Business Strategy, Operations &Functions;Core Business Functions / HR;Gen Z workforce topics.;Intern engagement.;;S
+#YoungWorkers;Business Strategy, Operations &Functions;Core Business Functions / HR;Early career workers.;Portfolio building.;;S
+#GenerationalShifts;Business Strategy, Operations &Functions;Core Business Functions / HR;Evolving demography at work.;Succession planning.;;S
+#TrainingFunction;Business Strategy, Operations &Functions;Core Business Functions / Training;Learning org operations.;Curriculum roadmap.;;F
+#ProfessionalDevelopmentFunction;Business Strategy, Operations &Functions;Core Business Functions / Training;Formal growth programs.;Badging &levels.;;F
+#FreeAIInstruction;Business Strategy, Operations &Functions;Core Business Functions / Training;Free learning resources.;YouTube playlists.;;C
+#SelfInstruction;Business Strategy, Operations &Functions;Core Business Functions / Training;Self-directed learning.;Challenge sprints.;;S
+#AIInstruction;Business Strategy, Operations &Functions;Core Business Functions / Training;Teaching AI concepts/tools.;Workshop agendas.;;S
+#AIInEducation;Business Strategy, Operations &Functions;Core Business Functions / Training;Use of AI in schools.;Policy and tools.;;S
+#PythonInstruction;Business Strategy, Operations &Functions;Core Business Functions / Training;Learning Python for AI.;Intro to pandas.;;S
+#DeepLearningAI;Business Strategy, Operations &Functions;Core Business Functions / Training;deeplearning.ai courses.;Short courses &specs.;;C
+#OpenAIAcademy;Business Strategy, Operations &Functions;Core Business Functions / Training;OpenAI Academy resources.;Prompting modules.;;C
+#AnthropicCourses;Business Strategy, Operations &Functions;Core Business Functions / Training;Anthropic learning content.;Safety modules.;;C
+#PersonalizedLearning;Business Strategy, Operations &Functions;Core Business Functions / Training;Adaptive learning paths.;Role-based tracks.;;S
+#K12;Business Strategy, Operations &Functions;Core Business Functions / Training;Primary/secondary education.;Teacher aids.;;I
+#EducationIndustry;Business Strategy, Operations &Functions;Core Business Functions / Training;The education sector writ large.;EdTech clients.;;I
+#CustomerExperience;Business Strategy, Operations &Functions;Core Business Functions / Customer Support;Holistic customer perception.;NPS improvements.;;S
+#ServiceDesign;Business Strategy, Operations &Functions;Core Business Functions / Customer Support;Intentional design of service.;Journey mapping.;;P
+#CustomerSatisfaction;Business Strategy, Operations &Functions;Core Business Functions / Customer Support;Happiness metrics and drivers.;CSAT dashboard.;;S
+#ClientFeedback;Business Strategy, Operations &Functions;Core Business Functions / Customer Support;Solicit and capture feedback.;Daily check-ins.;;P
+#GuaranteeModel;Business Strategy, Operations &Functions;Core Business Functions / Customer Support;Policies reducing risk to buyers.;Money-back test day.;;S
+#NoChargeGuarantee;Business Strategy, Operations &Functions;Core Business Functions / Customer Support;Zero-cost if unsatisfied.;Day 1 guarantee.;;S
+#ServiceRecovery;Business Strategy, Operations &Functions;Core Business Functions / Customer Support;Actions after failures.;Rapid response protocol.;;P
+#Governance;Business Strategy, Operations &Functions;Core Business Functions / Legal;Decision rights and oversight.;Model council setup.;;E
+#DataSecurity;Business Strategy, Operations &Functions;Core Business Functions / Legal;Protect data confidentiality.;PII controls.;;E
+#CyberSecurity;Business Strategy, Operations &Functions;Core Business Functions / Legal;Security posture and practices.;Vulnerability scans.;;E
+#IntellectualProperty;Business Strategy, Operations &Functions;Core Business Functions / Legal;IP creation and protection.;License checks.;;E
+#Ethics;Business Strategy, Operations &Functions;Core Business Functions / Legal;Moral principles in AI use.;Bias reviews.;;E
+#AIRegulation;Business Strategy, Operations &Functions;Core Business Functions / Legal;Laws and standards for AI.;Compliance mapping.;;E
+#Transparency;Business Strategy, Operations &Functions;Core Business Functions / Legal;Explainability and disclosure.;Label AI content.;;E
+#RiskManagement;Business Strategy, Operations &Functions;Core Business Functions / Legal;Identify and mitigate risks.;Register critical automations.;;E
+#MVP;Business Strategy, Operations &Functions;Core Business Functions / Product Development;Minimum viable product concept.;Scope smallest testable value.;;P
+#ProductTesting;Business Strategy, Operations &Functions;Core Business Functions / Product Development;Validate product behavior.;Beta user tests.;;P
+#Innovation;Business Strategy, Operations &Functions;Core Business Functions / Product Development;Novel solutions and methods.;Idea funnels &hack days.;;S
+#FeedbackLoops;Business Strategy, Operations &Functions;Core Business Functions / Product Development;Collect &act on feedback.;Close-the-loop rituals.;;P
+#IndustryResearchFunction;Business Strategy, Operations &Functions;Core Business Functions / Research;Formal industry research activity.;Landscape maps.;;F
+#AITrends;Business Strategy, Operations &Functions;Core Business Functions / Research;Emerging AI patterns and shifts.;Quarterly briefings.;;S
+#AINews;Business Strategy, Operations &Functions;Core Business Functions / Research;News items concerning AI.;Weekly roundups.;;C
+#AIUsageStatistics;Business Strategy, Operations &Functions;Core Business Functions / Research;Data on adoption and outcomes.;Benchmark slides.;;S
+#AISpending;Business Strategy, Operations &Functions;Core Business Functions / Research;Budgets and spend patterns.;SMB spend studies.;;S
+#ConsultingIndustryResearch;Business Strategy, Operations &Functions;Core Business Functions / Research;Studies on the consulting market.;Disruption reports.;;S
+#StartupSpending;Business Strategy, Operations &Functions;Core Business Functions / Research;How startups allocate budgets.;Tools vs talent analysis.;;S
+#A16ZReport;Business Strategy, Operations &Functions;Core Business Functions / Research;Andreessen Horowitz reports.;Cite industry data.;;C
+#TechHubs;Business Strategy, Operations &Functions;Core Business Functions / Research;Geographies with tech density.;Target hiring markets.;;S
+#Mercury;Business Strategy, Operations &Functions;Core Business Functions / Research;Banking/fintech insights source.;Funding environment read.;;C
+#FutureOfSchools;Business Strategy, Operations &Functions;Core Business Functions / Research;Futures thinking in education.;Policy brief.;;S
+#CompetitiveIntelligence;Business Strategy, Operations &Functions;Core Business Functions / Research;Systematic tracking of rivals.;Win/loss and feature matrix.;;P
+#GeneralManagement;Business Strategy, Operations &Functions;Core Business Functions / General Management;Organization‑wide coordination and change.;Steer multi‑function programs.;;F+S
+#ExecutiveCoaching;Business Strategy, Operations &Functions;Core Business Functions / General Management;Support for senior leaders.;Behavioral change goals.;;S
+#OrganizationalDesign;Business Strategy, Operations &Functions;Core Business Functions / General Management;Structures enabling strategy.;Cross‑functional pods.;;P
+#TeamPerformance;Business Strategy, Operations &Functions;Core Business Functions / General Management;Improve team outcomes.;Retros &metrics.;;S
+#DecisionMaking;Business Strategy, Operations &Functions;Core Business Functions / General Management;Frameworks for choices.;OODA/DARE/MECE.;;S
+#Culture;Business Strategy, Operations &Functions;Core Business Functions / General Management;Norms and behaviors.;Write Working Agreements.;;S
+#ManagementConsulting;Business Strategy, Operations &Functions;Core Business Functions / General Management;Advisory at org level.;Operating cadence design.;;S
+#BookYourselfSolid;Business Strategy, Operations &Functions;Core Business Functions / General Management;BYSS methodology reference.;Niche and pipeline tactics.;;C
+#LeanStartup;Business Strategy, Operations &Functions;Core Business Functions / General Management;Experimentation-driven growth.;Build‑measure‑learn loops.;;S
+#FlywheelModel;Business Strategy, Operations &Functions;Core Business Functions / General Management;Self-reinforcing growth loops.;Intern → Client → IP loop.;;S
+#ClaytonChristensen;Business Strategy, Operations &Functions;Core Business Functions / General Management;Disruptive innovation theory.;Non-consumer strategy.;;C
+#DisruptiveInnovation;Business Strategy, Operations &Functions;Core Business Functions / General Management;Serve non‑consumers at lower cost.;SMB AI consulting entry.;;S
+#PublicPolicy;Business Strategy, Operations &Functions;Core Business Functions / Public Policy;Government relations &regulation.;Comment on county tax policy.;;F+S
+#DataCenterPolicy;Business Strategy, Operations &Functions;Core Business Functions / Public Policy;Policies governing data centers.;Propose equipment tax changes.;;S
+#EnergyPolicy;Business Strategy, Operations &Functions;Core Business Functions / Public Policy;Grid capacity &sustainability policy.;Tier IV generator incentives.;;S
+#TaxPolicy;Business Strategy, Operations &Functions;Core Business Functions / Public Policy;Public taxation frameworks.;BPPT options analysis.;;S
+#EconomicDevelopment;Business Strategy, Operations &Functions;Core Business Functions / Public Policy;Local growth strategies.;Balanced commercial mix.;;S
+#WorkforcePolicy;Business Strategy, Operations &Functions;Core Business Functions / Public Policy;Training &apprenticeship policy.;Grant programs.;;S
+#CPAM;Business Strategy, Operations &Functions;Core Business Functions / Public Policy;Comprehensive Plan Amendment.;Land-use guidance.;;S
+#ZOAM;Business Strategy, Operations &Functions;Core Business Functions / Public Policy;Zoning Ordinance Amendment.;Zoning changes and impacts.;;S
+#CountyBudget;Business Strategy, Operations &Functions;Core Business Functions / Public Policy;Budget processes &timelines.;FY27 milestones.;;S
+#PublicInfrastructure;Business Strategy, Operations &Functions;Core Business Functions / Public Policy;Infrastructure planning and funding.;Substation timelines.;;S
+#Legislation;Business Strategy, Operations &Functions;Core Business Functions / Public Policy;Law-making processes/bills.;Track state bills.;;S
+#Lobbying;Business Strategy, Operations &Functions;Core Business Functions / Public Policy;Advocacy to decision-makers.;Meetings and testimony.;;S
+#Advocacy;Business Strategy, Operations &Functions;Core Business Functions / Public Policy;Public persuasion and coalitioning.;Resident-facing benefits.;;S
+#CivicEngagement;Business Strategy, Operations &Functions;Core Business Functions / Civic Engagement;Community collaboration &participation.;Public meeting mobilization.;;F+S
+#PoliticalActionCommittee;Business Strategy, Operations &Functions;Core Business Functions / Civic Engagement;PAC operations and strategy.;LF governance model.;;S
+#LoudounsFuture;Business Strategy, Operations &Functions;Core Business Functions / Civic Engagement;Local PAC reference.;Campaign updates.;;C
+#CommunityEngagement;Business Strategy, Operations &Functions;Core Business Functions / Civic Engagement;Working with stakeholders.;Listening sessions.;;S
+#PublicMeetings;Business Strategy, Operations &Functions;Core Business Functions / Civic Engagement;Town halls/hearings/events.;Prepare speaker notes.;;S
+#CitizenAdvocacy;Business Strategy, Operations &Functions;Core Business Functions / Civic Engagement;Grassroots outreach.;Door-to-door issues brief.;;S
+#Grassroots;Business Strategy, Operations &Functions;Core Business Functions / Civic Engagement;Volunteer-driven organizing.;Phone/text banks.;;S
+#PublicComment;Business Strategy, Operations &Functions;Core Business Functions / Civic Engagement;Formal statements on records.;Write comments for hearings.;;P
+#BipartisanPolicy;Business Strategy, Operations &Functions;Core Business Functions / Civic Engagement;Nonpartisan framing of issues.;Shared-benefit proposals.;;S
+#LocalGovernment;Business Strategy, Operations &Functions;Core Business Functions / Civic Engagement;County/town bodies and staff.;Track agendas.;;S
+#EconomicResilience;Business Strategy, Operations &Functions;Core Business Functions / Civic Engagement;Community ability to adapt.;Diversify tax base.;;S
+#HVAC;Industries &Use Cases;Industrial &Field Services;Heating and cooling services.;Audit field invoices.;;I
+#FieldService;Industries &Use Cases;Industrial &Field Services;Mobile service operations.;Route optimization bot.;;I
+#Construction;Industries &Use Cases;Industrial &Field Services;Builders and contractors.;Safety checklist agent.;;I
+#Manufacturing;Industries &Use Cases;Industrial &Field Services;Discrete/process manufacturing.;Predictive maintenance.;;I
+#SupplyChainManagement;Industries &Use Cases;Industrial &Field Services;Logistics planning and ops.;Inventory forecasting.;;I
+#Utilities;Industries &Use Cases;Industrial &Field Services;Electric/gas/water providers.;Outage triage assistant.;;I
+#Energy;Industries &Use Cases;Industrial &Field Services;Producers and energy tech.;DER scheduling.;;I
+#Transportation;Industries &Use Cases;Industrial &Field Services;Passenger/freight services.;Dispatch copilot.;;I
+#Logistics;Industries &Use Cases;Industrial &Field Services;Warehousing &delivery.;Dock scheduling bot.;;I
+#Agriculture;Industries &Use Cases;Industrial &Field Services;Farms and agri-services.;Crop advisory.;;I
+#ConsultingIndustry;Industries &Use Cases;Professional &Business Services;Advisory firms and agencies.;Proposal generator.;;I
+#LegalServices;Industries &Use Cases;Professional &Business Services;Law firms &legal ops.;Intake triage bot.;;I
+#Accounting;Industries &Use Cases;Professional &Business Services;Accounting &tax services.;Receipt extraction.;;I
+#RealEstate;Industries &Use Cases;Professional &Business Services;Residential &commercial RE.;Listing description AI.;;I
+#Insurance;Industries &Use Cases;Professional &Business Services;P&C/life/benefits carriers.;Claims summarizer.;;I
+#FinancialServices;Industries &Use Cases;Professional &Business Services;Banks/fintech/advisors.;KYC automation.;;I
+#MarketingAgencies;Industries &Use Cases;Professional &Business Services;Creative &media agencies.;Brief generator.;;I
+#Recruiting;Industries &Use Cases;Professional &Business Services;Talent acquisition firms.;Candidate screening bot.;;I
+#ITServices;Industries &Use Cases;Technology &Information;Managed service providers.;Ticket assistant.;;I
+#SoftwareDevelopment;Industries &Use Cases;Technology &Information;Custom/ISV software.;Spec doc assistant.;;I
+#CyberSecurity;Industries &Use Cases;Technology &Information;Security vendors/services.;Alert triage bot.;;I
+#DataAnalytics;Industries &Use Cases;Technology &Information;Analytics &BI services.;Auto dashboard narratives.;;I
+#AIConsulting;Industries &Use Cases;Technology &Information;AI advisory firms.;Use‑case audits.;;I
+#CloudComputing;Industries &Use Cases;Technology &Information;IaaS/PaaS/SaaS providers.;Spend optimization.;;I
+#Ecommerce;Industries &Use Cases;Consumer &Retail;Online retail platforms.;PDP content generator.;;I
+#Gaming;Industries &Use Cases;Technology &Information;Studios and platforms.;NPC dialogue tools.;;I
+#EdTech;Industries &Use Cases;Technology &Information;Education technology firms.;Course summarizers.;;I
+#Retail;Industries &Use Cases;Consumer &Retail;Physical/omni retail.;Planogram assistant.;;I
+#Hospitality;Industries &Use Cases;Consumer &Retail;Hotels and lodging.;Concierge chatbots.;;I
+#Restaurants;Industries &Use Cases;Consumer &Retail;Food service providers.;Menu engineering aide.;;I
+#ConsumerGoods;Industries &Use Cases;Consumer &Retail;CPG brands and shops.;Demand sensing.;;I
+#Entertainment;Industries &Use Cases;Consumer &Retail;Media and content.;Script ideation.;;I
+#Travel;Industries &Use Cases;Consumer &Retail;Travel agencies &ops.;Itinerary advisors.;;I
+#Apparel;Industries &Use Cases;Consumer &Retail;Clothing &fashion.;Trend analysis.;;I
+#Healthcare;Industries &Use Cases;Healthcare &Education;Clinics and providers.;Eligibility verification.;;I
+#MedicalPractices;Industries &Use Cases;Healthcare &Education;Physician/dental practices.;Chart summarizer.;;I
+#HealthTech;Industries &Use Cases;Healthcare &Education;Digital health vendors.;Symptom bot protos.;;I
+#LifeSciences;Industries &Use Cases;Healthcare &Education;Biotech/pharma.;Protocol drafting.;;I
+#EducationIndustry;Industries &Use Cases;Healthcare &Education;Schools/universities.;Syllabus assistant.;;I
+#TrainingProviders;Industries &Use Cases;Healthcare &Education;Bootcamps/L&D shops.;Quiz generator.;;I
+#Universities;Industries &Use Cases;Healthcare &Education;Higher education orgs.;Advisor assistants.;;I
+#K12;Industries &Use Cases;Healthcare &Education;Primary/secondary schools.;Tutor assistants.;;I
+#Nonprofit;Industries &Use Cases;Nonprofit &Government;Mission-driven orgs.;Grant analysis.;;I
+#Foundations;Industries &Use Cases;Nonprofit &Government;Philanthropic orgs.;Impact measurement.;;I
+#PublicAdministration;Industries &Use Cases;Nonprofit &Government;Gov’t departments.;RFP drafting.;;I
+#GovernmentServices;Industries &Use Cases;Nonprofit &Government;Citizen services.;Service navigator bot.;;I
+#PublicPolicy;Industries &Use Cases;Nonprofit &Government;Policy &regulation actors.;Comment workflows.;;I
+#CivicEngagement;Industries &Use Cases;Nonprofit &Government;Community advocacy.;Event promotion.;;I
+#CommunityDevelopment;Industries &Use Cases;Nonprofit &Government;Local development orgs.;Project intake bots.;;I
+#CollegeTools;Learning, Community &Ethics;Learning &Education Resources;Academic tools for students.;Source summaries.;;C
+#Studocu;Learning, Community &Ethics;Learning &Education Resources;Document-sharing site for study.;Find course notes.;;C
+#Coconote;Learning, Community &Ethics;Learning &Education Resources;Note-taking/learning tool.;Lecture capture.;;C
+#Libgen;Learning, Community &Ethics;Learning &Education Resources;Library Genesis reference.;Locate references.;;C
+#OceanPDF;Learning, Community &Ethics;Learning &Education Resources;PDF repository reference.;Find research PDFs.;;C
+#StudyFetch;Learning, Community &Ethics;Learning &Education Resources;Study assistant platform.;Create practice questions.;;C
+#AITraining;Learning, Community &Ethics;Learning &Education Resources;Training resources for AI.;Curate course lists.;;C
+#LearningHub;Learning, Community &Ethics;Learning &Education Resources;Central hub for learning paths.;MAP/OAP curricula.;;S
+#CurriculumDesign;Learning, Community &Ethics;Learning &Education Resources;Designing learning programs.;Pathways &badges.;;P
+#Discord;Learning, Community &Ethics;Online Communities &Knowledge Sharing;Community chat &events.;Host study groups.;;C
+#SubReddit;Learning, Community &Ethics;Online Communities &Knowledge Sharing;Reddit communities.;Topic deep-dives.;;C
+#VibeCodersNest;Learning, Community &Ethics;Online Communities &Knowledge Sharing;Community for builders.;Share prototypes.;;C
+#CommunityDiscussion;Learning, Community &Ethics;Online Communities &Knowledge Sharing;General discussion tag.;Weekly threads.;;C
+#TikTok;Learning, Community &Ethics;Online Communities &Knowledge Sharing;Short-form video platform.;Micro-lessons.;;C
+#Beehiiv;Learning, Community &Ethics;Online Communities &Knowledge Sharing;Newsletter platform.;MAP digest.;;C
+#ThoughtPartnership;Learning, Community &Ethics;Online Communities &Knowledge Sharing;Collaborative problem solving.;Peer review of drafts.;;S
+#LifeCoaching;Learning, Community &Ethics;Online Communities &Knowledge Sharing;Coaching on habits and growth.;Time management tips.;;S
+#FileOrganization;Learning, Community &Ethics;Online Communities &Knowledge Sharing;Taxonomies and structure.;Tagging conventions.;;P
+#BranchingConversations;Learning, Community &Ethics;Online Communities &Knowledge Sharing;Structured chat branches.;Canvas+docs workflow.;;P
+#ProductivityTools;Learning, Community &Ethics;Online Communities &Knowledge Sharing;Tools/process to get more done.;Capture → Review → Act.;;S
+#CoralProtocol;Learning, Community &Ethics;Ethics &Governance;Ethics/governance reference.;Agent safety standards.;;E
+#ResponsibleAI;Learning, Community &Ethics;Ethics &Governance;Safe and ethical AI practices.;Fairness reviews.;;E
+#BiasMitigation;Learning, Community &Ethics;Ethics &Governance;Reduce harmful bias in models.;Dataset audits.;;E
+#Privacy;Learning, Community &Ethics;Ethics &Governance;Protect user privacy.;Anonymize PII in PDFs.;;E
+#EthicalAI;Learning, Community &Ethics;Ethics &Governance;Principles for responsible AI.;Guideline frameworks.;;E
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
